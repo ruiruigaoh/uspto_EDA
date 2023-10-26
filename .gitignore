@@ -1,1 +1,6 @@
+# Ignore .DS_Store files
 .DS_Store
+
+# Ignore data files except .gitkeep
+data/*
+!data/.gitkeep
