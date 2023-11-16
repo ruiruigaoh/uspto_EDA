@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Make lineplot
-def lineplot(data, *, x, y, hue, ax=None, xlabel=None, ylabel=None, **prop_kwargs):
+def lineplot(data, *, x, y, hue, ax=None, xlabel=None, ylabel=None):
     
     # Assign categories to a list for marker assignment
     data = data
