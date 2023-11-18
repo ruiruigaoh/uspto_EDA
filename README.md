@@ -1,9 +1,9 @@
 # Patent Pending
 ## An exploratory analysis of the biotech patent landscape through USPTO patent data
 
-This is an exploratory data analysis (EDA) of publicly available datasets from the USPTO (United States Patent and Trademark Office). The bulk of the analysis is done in IPython (via a Jupyter notebook), and heavily features the use of several packages including NumPy, Pandas, and Matplotlib, among others.
+This is an exploratory data analysis (EDA) of publicly available datasets from the USPTO (United States Patent and Trademark Office). The bulk of the analysis was done in Python (via a Jupyter notebook). The main packages used include *NumPy, Pandas, and Matplotlib*, with some use of scipy.stats, GeoPandas and GeoPlot as well.
 
-The goal of my analysis was to explore how technological development, bureaucracy, and private actors affect patent pendency (the length of time between when a patent application is filed and when it is issued at the USPTO). This Git repo also includes a slide deck that summarizes the main findings of the project.
+The goal of my analysis was to explore how technological development, bureaucracy, and private actors affect patent pendency (the length of time between when a patent application is filed and when it is issued at the USPTO). The repo also includes a slide deck that presents and summarizes the main findings of my project.
 
 ---
 
@@ -11,7 +11,7 @@ The goal of my analysis was to explore how technological development, bureaucrac
 
 **Main datasets:**
 - Cancer Moonshot Patent Data (available for download from the USPTO website [here](https://www.uspto.gov/ip-policy/economic-research/research-datasets/cancer-moonshot-patent-data))
-- Patent Examination Research Dataset -- 2022 release (available for download from the USPTO website [here](https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-examination-research-dataset-public-pair)). The specific data files that you'll want to download *from the 2022 release* are:
+- Patent Examination Research Dataset -- 2022 release (available for download from the USPTO website [here](https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-examination-research-dataset-public-pair)). The specific data files that you'll want to download from the 2022 release are:
     - `application_data.csv`
     - `correspondence_address.csv`
     - `all_inventors.csv`
@@ -22,4 +22,4 @@ The goal of my analysis was to explore how technological development, bureaucrac
     - `random_sample_examiners.csv`: [download](https://drive.google.com/file/d/1mGrZPvld78x3kFc8xAAiZkvlWtutGvRy/view?usp=sharing)
     - `stratified_sample_examiners.csv`: [download](https://drive.google.com/file/d/1qI618WNMovnz7QraC8Ylp2RcH3GQABJc/view?usp=sharing)
 
-    Once you have downloaded the datasets, you can move it into the empty `data/` subfolder after cloning the Git repo onto your local machine.
+    Once the datasets are downloaded, they can be moved into the empty `data/` subfolder after cloning.
