@@ -1,9 +1,14 @@
-# Patent Pending
-## An exploratory analysis of the biotech patent landscape through USPTO patent data
+# "Patent Pending": Exploratory analysis of the biotech patent landscape and patent processing times
 
-This is an exploratory data analysis (EDA) of publicly available datasets from the USPTO (United States Patent and Trademark Office). The bulk of the analysis was done in Python (via a Jupyter notebook). The main packages used include *NumPy, Pandas, and Matplotlib*, with some use of scipy.stats, GeoPandas and GeoPlot as well.
+**Overview:** This analysis explores historical trends in the processing times of biotech-related patents, and uncovers links between patent processing time and factors such as market shifts, patent law/policy changes, examiner "difficulty", and the technology category of a patent. 
 
-The goal of my analysis was to explore how technological development, bureaucracy, and private actors affect patent pendency (the length of time between when a patent application is filed and when it is issued at the USPTO). This repo also includes a slide deck that presents and summarizes the main findings of my project.
+**Why patents?** While not a cornerstone of all industries, patents are extremely valuable to the biotech and pharma industries in particular, given the astronomical costs of pharmaceutical research and development (R&D) and the low overall probability of clinical success (i.e., regulatory approval). In other words, securing patent protection is a *key* mechanism for biotech and pharma companies to recoup the massive upfront investment that drug development requires. Strong and robust patent portfolios are therefore an essential pillar for most companies in these industries.
+
+**Main packages used:** pandas, numpy, matplotlib, seaborn.
+
+**Minor packages:** geopandas, geoplot.
+
+Slide deck that presents and summarizes the main findings of the analysis can be found [here]().
 
 ---
 
