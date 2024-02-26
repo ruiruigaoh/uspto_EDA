@@ -32,9 +32,9 @@ The main dataset used in this analysis contains **~270K** records of cancer rese
 **Note:** Downloaded datasets can be moved into the empty `data/` subfolder in this repo.
 
 ---
-# Summary of Insights
+## Summary of Insights
 
-Every patent begins as a _patent application_ filed at the USPTO. Patent applications need to be _granted_ (approved) by an examiner to become legally enforceable; not all patent applications become granted (a sizeable portion are abandoned). Processing time describes the time between when a patent is filed and when it is granted.
+Every patent begins as a _patent application_ filed at the USPTO. Patent applications need to be _granted_ (approved) by an examiner (a USPTO official) to become legally enforceable; not all patent applications become granted (a sizeable portion are abandoned). Processing time describes the time between when a patent is filed and when it is granted.
 
 <p align="center" width="100%">
   <img width="70%" src="results/prop-categories-by-year"><br>
@@ -43,7 +43,7 @@ Every patent begins as a _patent application_ filed at the USPTO. Patent applica
 **Trends in patent categories:** Overall, biotech and pharma patents fall into **9 broad technology categories**. The graph above captures the **emergence of technologies** such as **DNA-related patents** in the late 1990's, while technology related to **drugs and pharmaceutical chemistry**, which dominated biotech patent filings before 2000, shows a decreasing trend in recent years. **Data science-related patents are beginning to emerge** and are expected to continue gaining ground as the industry continues to incorporate AI to accelerate drug discovery and development.
 
 <p align="center" width="100%">
-  <img width="70%" src="results/pendency-by-category"><br>
+  <img width="50%" src="results/pendency-by-category"><br>
 </p>
 
 **Processing times vary depending on technology:** Patents related to **radiation detection and measurement** had the **shortest processing times** (median 30 months), while patents related to **living organisms and model systems** had the **longest processing times** (median 42 months). The difference is **statistically significant**. Patents related to more **abstract concepts and natural phenomena** such as **cells, DNA, diagnostics, data science, and living organisms** typically face **longer approval times**, reflecting the fact that U.S. law restricts patents on certain types of inventions, such as those related to abstract concepts and non-manmade objects.
@@ -52,7 +52,15 @@ Every patent begins as a _patent application_ filed at the USPTO. Patent applica
   <img width="70%" src="results/patex-pendency-vs-filing-year"><br>
 </p>
 
-**Processing time is affected by changes in patent law and market behavior:** A sharp spike in the number of filed applications can be observed in 1995 in the graph above (right), which could be attributed to **a change in patent term from 17 years from grant to 20 years from filing**. This change potentially **disadvantaged patents** that took longer than three years to be approved by the USPTO. The sharp rise in applications in 1995 suggests that companies **rushed to file** before the new law took affect. **Pendency (processing time) also spiked** in 1995, possibly due to the sudden **influx of applications.** However, the graphs also show a positive outcome. Despite **steadily increasing filings**, the USPTO has managed to **maintain consistent processing times** since 2005. This reflects their ability to **adapt to changing market demand**.
+**Processing time is affected by changes in patent law and market behavior:** A sharp spike in the number of filed applications can be observed in 1995 in the graph above (right), which could be attributed to **a change in patent term that occurred in 1995**. This change in patent term, from 17 years from grant to 20 years from filing, potentially **disadvantaged patents** that took longer than three years to be approved by the USPTO. The sharp rise in applications in 1995 is likely due to companies **rushing to file** before the new law took affect. **Processing time also spiked** in 1995, possibly due to the sudden **influx of applications.** However, the graphs also show a positive outcome. Despite **steadily increasing filings**, the USPTO has managed to **significantly decrease processing times** since 2005, reflecting their ability to **adapt to increasing market demand**.
 
+<p align="center" width="100%">
+  <img width="70%" src="results/examiner-difficulty-pendency"><br>
+</p>
 
+**Examiner 'difficulty' is positively related to processing time:** Examiner difficulty ranking (sourced from (PatentBots)[https://www.patentbots.com/stats/]) is **positively correlated with average processing times**. This means that applications assigned to more 'difficult' examiners tend to experience longer processing times, with a **moderately strong association** (r = 0.62).  
 
+---
+## Recommendations
+
+Based on the 
