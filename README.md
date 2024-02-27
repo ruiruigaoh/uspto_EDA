@@ -4,6 +4,7 @@ Though not a cornerstone of all industries, patents are extremely **valuable to 
 
 Using Python, I conducted an exploratory analysis of the USPTO's patent records, focusing specifically on **biotech- and pharma-related patents**. I investigated historical trends in the processing times of these patents, uncovering insights about how factors such as market shifts, patent law/policy changes, examiner "difficulty", and different technology categories are linked to patent processing times at the USPTO. These insights, summarized below, can be leveraged by life sciences companies to make patent-related business decisions, e.g., developing patent portfolios or planning patent filing timelines as a part of wider business development activities, like licensing and R&D strategy. 
 
+---
 ## Technical overview
 
 **Main packages:** pandas, numpy, matplotlib, seaborn.
@@ -68,4 +69,4 @@ The following recommendations are based on the above insights and are intended t
 * **Focus on emerging trends, but balance novelty with patentability:** The data suggests a shift in focus from traditional drug and chemical patents to emerging areas like data science. Consider aligning R&D strategy with these emerging fields, but **also be mindful of the potentially longer processing times** associated with emerging technologies, especially those related to natural phenomena (DNA, living organisms) or abstract concepts (AI, software).
 * **Expect longer processing times for complex inventions:** Patents related to certain technologies may face longer approval times due to legal restrictions and increased examiner scrutiny -- plan accordingly for these delays.
 * **Stay informed about legal changes:** Monitor upcoming changes in patent law, which can potentially impact processing times by creating a spike in filings.
-* **Consider examiner difficulty:** Research the assigned examiner's "difficulty" ranking and use regression analysis to potentially estimate a processing time. Conduct more in-depth analysis to investigate potential factors that are associated with faster processing times even for examiners with very high difficulty rankings, and use findings to guide patent prosecution strategies. 
+* **Consider examiner difficulty:** Research the assigned examiner's "difficulty" ranking and use regression analysis to potentially estimate a processing time. Conduct more in-depth analysis to investigate potential factors that are associated with faster processing times even for examiners with very high difficulty rankings, and use these findings to guide patent prosecution strategies. 
