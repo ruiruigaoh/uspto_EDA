@@ -9,7 +9,7 @@ Using Python, I conducted an exploratory analysis of the USPTO's patent records,
 
 **Main packages:** _pandas, numpy, matplotlib, seaborn_.
 
-**Other packages:** _scipy.stats, geopandas, geoplot_.
+**Other packages:** _scipy.stats, statsmodels, geopandas, geoplot_.
 
 A Jupyter notebook containing code and writeup for the analysis can be found [here](https://github.com/ruiruigao/uspto_EDA/blob/main/uspto_EDA.ipynb).
 
