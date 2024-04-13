@@ -58,7 +58,7 @@ The main dataset used in this analysis contains **~270K** records of cancer rese
 * *Examiner 'difficulty' is positively related to processing time:* From a sample of examiners selected from the data, examiner difficulty ranking (sourced from [PatentBots](https://www.patentbots.com/stats/)) is **positively correlated with average processing times**. This means that applications assigned to more 'difficult' examiners tend to experience longer processing times, with a **moderately strong association** (r = 0.62).  
 
 <p align="center" width="100%">
-  <img src="results/examiner-difficulty-pendency"><br>
+  <img height="450" src="results/examiner-difficulty-pendency"><br>
 </p>
 
 ---
