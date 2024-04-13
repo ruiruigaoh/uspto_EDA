@@ -43,7 +43,7 @@ The main dataset used in this analysis contains **~270K** records of cancer rese
   <img src="results/prop-categories-by-year"><br>
 </p>
 
-* *Processing times vary depending on technology:* Patents related to **radiation detection and measurement** had the **shortest processing times** (median 30 months), while patents related to **living organisms and model systems** had the **longest processing times** (median 42 months). The difference is **statistically significant** (p-value = 1.7x10<sup>-29</sup>). Patents related to more **abstract concepts and natural phenomena** such as **cells, DNA, diagnostics, data science, and living organisms** typically face **longer approval times**, reflecting the fact that U.S. law restricts patents on certain types of inventions, such as those related to abstract concepts and non-manmade objects.
+* *Processing times vary depending on technology:* Patents related to **radiation detection and measurement** had the **shortest processing times** (median 30 months), while patents related to **living organisms and model systems** had the **longest processing times** (median 42 months). The difference is **statistically significant** (p-value < 0.01). Patents related to more **abstract concepts and natural phenomena** such as **cells, DNA, diagnostics, data science, and living organisms** typically face **longer approval times**, reflecting the fact that U.S. law restricts patents on certain types of inventions, such as those related to abstract concepts and non-manmade objects.
 
 <p align="center" width="100%">
   <img src="results/pendency-by-category"><br>
