@@ -37,7 +37,7 @@ The main dataset used in this analysis contains **~270K** records of cancer rese
 
 **Background:** Every patent begins as a _patent application_ filed at the USPTO. Patent applications need to be granted (approved) by an examiner (a USPTO official) to become a legally enforceable patent; not all patent applications become granted. Processing time describes the time between when a patent is filed and when it is granted.
 
-* *Trends in patent categories:* Overall, biotech and pharma patents fall into **9 broad technology categories**. The graph below captures the **emergence of technologies** such as **DNA-related patents** in the late 1990's, while technology related to **drugs and pharmaceutical chemistry**, which dominated biotech patent filings before 2000, shows a decreasing trend in recent years. **Data science-related patents are beginning to emerge** and are expected to continue gaining ground as the biotech and pharma industries continue to incorporate AI to accelerate drug discovery and development.
+* *Trends in patent categories:* Overall, biotech and pharma patents fall into **9 broad technology categories**. The graph below captures the **emergence of technologies** such as **DNA-related patents** in the late 1990's, while technology related to **drugs and pharmaceutical chemistry**, which dominated biotech patent filings before 2000, shows a decreasing trend in recent years. **Data science-related patents are beginning to emerge** and are expected to continue gaining ground as the biotech and pharma industries continue to incorporate AI and machine learning into their drug discovery and development pipelines.
 
 <p align="center" width="100%">
   <img src="results/prop-categories-by-year"><br>
